@@ -5,7 +5,7 @@ import Home from "./components/Home/Home.js";
 import CartContent from "./components/CartContent/CartContent";
 import DataProvider from "./components/Context/DataContext";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
+// to start to create all the routs
 export default function productList() {
   return (
      <DataProvider>
