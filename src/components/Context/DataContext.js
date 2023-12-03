@@ -12,7 +12,7 @@ const DataProvider = ({children}) => {
 
     },[]);
 
-    return <dataContext.Provider value={{ data }}>{Children}</dataContext.Provider>;
+    return <dataContext.Provider value={{ data, cart, setCart }}>{Children}</dataContext.Provider>;
     
 };
 
